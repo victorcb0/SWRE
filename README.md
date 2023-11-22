@@ -33,7 +33,7 @@
    b. Pe ISP2: către subnet-urile 172.z.10.0/24, 172.z.20.0/24, 172.z.30.0/24, 172.z.40.0/24, 172.z.98.0/24 se va folosi ca next hop IP virtual configurat la pct 16b
 18. (0.45p) Configurați SSH pe SW2 și Core_Switch1 pentru access remote ți testați SSH funcțional de la PC1 pe cele două echipamente (UN: admin, PW: savnet)
    Exemplu de stivă de comenzi pentru SSH:
-   '''
+   ```
    SW2(config)# ip domain-name cisco.com
    SW2(config)# Username admin1 secret uptac
    SW2(config)# Line vty 0 15
@@ -41,6 +41,6 @@
    SW2(config)# Login local
    SW2(config)# Exit
    SW2(config)# Crypto key generate rsa // se pune 1024
-   '''
+   ```
 19.	(0.45p)	Configurați Telnet pe SW-urile din Customer Office  pentru access remote și testați Telnet funcțional de la PC1 pe echipamentele cu Telnet configurat (PW ales la alegere)
 20.	(0.45p)	Salvați config din Customer Office pe serverul de TFTP.
