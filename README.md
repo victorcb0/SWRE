@@ -1,13 +1,13 @@
 # SWRE (Switching, Routing, and Wireless Essentials)
 
-Cerințe proiect AR (an 3, AC, UPT):
+## Cerințe proiect AR (an 3, AC, UPT):
 
 1.	(0.45p)	Faceți configurația de VLAN în Customer Office (definiți VLAN-urile pe SW-uri, porturi de tip acces, porturi de tip trunk)
 2.	(0.45p)	Faceți configurația de VLAN în Data Center (definiți VLAN-urile pe SW-uri, porturi de tip acces, porturi de tip trunk)
-3.	(0.45p)	Configurați IPv4 echipamentele din VLAN-urile din Customer Office conform topologiei și după următoarele cerințe: 
-  a.	Pe end-devices la alegere din VLAN-ul din care fac parte
+3.	(0.45p)	Configurați IPv4 echipamentele din VLAN-urile din Customer Office conform topologiei și după următoarele cerințe:
+  ```a.	Pe end-devices la alegere din VLAN-ul din care fac parte
   b.	Pe SW-uri la alegere din VLAN-ul de Management
-  c.	Pe fiecare router pe subinterfețe câte o adresa IPv4 din VLAN-ul din care fac parte). 
+  c.	Pe fiecare router pe subinterfețe câte o adresa IPv4 din VLAN-ul din care fac parte).```
 4.	(0.45p)	Configurați IPv4 echipamentele din VLAN-urile din Data Center conform topologiei și după urmatoarele cerințe: 
   a.	Pe end-devices la alegere din VLAN-ul din care fac parte
   b.	Pe SW-uri la alegere din VLAN-ul de Management
