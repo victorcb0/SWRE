@@ -7,7 +7,7 @@
 3.	(0.45p)	Configurați IPv4 echipamentele din VLAN-urile din Customer Office conform topologiei și după următoarele cerințe:
   > a.	Pe end-devices la alegere din VLAN-ul din care fac parte
   > b.	Pe SW-uri la alegere din VLAN-ul de Management
-  > c.	Pe fiecare router pe subinterfețe câte o adresa IPv4 din VLAN-ul din care fac parte).```
+  > c.	Pe fiecare router pe subinterfețe câte o adresa IPv4 din VLAN-ul din care fac parte).
 4.	(0.45p)	Configurați IPv4 echipamentele din VLAN-urile din Data Center conform topologiei și după urmatoarele cerințe: 
   a.	Pe end-devices la alegere din VLAN-ul din care fac parte
   b.	Pe SW-uri la alegere din VLAN-ul de Management
