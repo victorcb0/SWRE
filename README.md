@@ -12,13 +12,14 @@
      * a. Pe end-devices la alegere din VLAN-ul din care fac parte
      * b. Pe SW-uri la alegere din VLAN-ul de Management
      * c. Pe fiecare MSW pe interfețele de VLAN câte o adresă IPv4 din VLAN-ul din care fac parte.
-6. (0.45p) Verificați ping de la oricine la oricine în Customer Office.
-7. (0.45p) Verificați ping de la oricine la oricine în Data Center.
-8. (0.45p) Configurați IPv4 WAN-urile (WAN1, WAN2, cluster Internet) respectând subnet-urile menționate în topologie (atenție la Cluster Internet).
-9. (0.45p) În site "Customer Office" configurați port-channel folosind PAGP.
-10. (0.45p) Setați RSTP și HSRP-ul, astfel încât să folosiți optim rețeaua. Atenție la alegerea Root Bridge-ului Primary și Secondary per VLAN să fie corelat cu HSRP pentru a avea load-balancing. (ex: Daca SW4 este Root Bridge pentru VLANa, atunci R4 va fi HSRP Active pentru VLANa)
-11. (0.45p) În site "DataCenter" configurați port-channel folosind LACP.
-12. (0.45p) Setați RSTP și HSRP-ul, astfel încat să folosiți optim rețeaua. Atenție la alegerea Root Bridge-ului Primary și Secondary per VLAN să fie corelat cu HSRP pentru a avea load-balancing. (ex: Dacă CoreSW1 este Root Bridge pentru VLANb, atunci CoreSW1 va fi HSRP Active pentru VLANb)
+5. (0.45p) Verificați ping de la oricine la oricine în Customer Office.
+6. (0.45p) Verificați ping de la oricine la oricine în Data Center.
+7. (0.45p) Configurați IPv4 WAN-urile (WAN1, WAN2, cluster Internet) respectând subnet-urile menționate în topologie (atenție la Cluster Internet).
+8. (0.45p) În site "Customer Office" configurați port-channel folosind PAGP.
+9. (0.45p) Setați RSTP și HSRP-ul, astfel încât să folosiți optim rețeaua. Atenție la alegerea Root Bridge-ului Primary și Secondary per VLAN să fie corelat cu HSRP pentru a avea load-balancing. (ex: Daca SW4 este Root Bridge pentru VLANa, atunci R4 va fi HSRP Active pentru VLANa)
+10. (0.45p) În site "DataCenter" configurați port-channel folosind LACP.
+11. (0.45p) Setați RSTP și HSRP-ul, astfel încat să folosiți optim rețeaua. Atenție la alegerea Root Bridge-ului Primary și Secondary per VLAN să fie corelat cu HSRP pentru a avea load-balancing. (ex: Dacă CoreSW1 este Root Bridge pentru VLANb, atunci CoreSW1 va fi HSRP Active pentru VLANb)
+12. (0.45p)	Verificați ping de la oricine la oricine în Customer Office. Atenție: DGW pe echipamente va fi adresa IPv4 a routerului virtual.
 13. (0.45p) Verificați ping de la oricine la oricine în Customer Office. Atenție: DGW pe echipamente va fi adresa IPv4 a routerului virtual.
 14. (0.45p) Configurați RIPv2 pentru routerele din "Internet" (ISP1 + Cluster + ISP2). Asigurați-vă că update-urile de RIPv2 nu se trimit în “Customer Office” și “Data Center”.
 15. (0.45p) Configurați rute statice default către ISP în IPv4 astfel:
