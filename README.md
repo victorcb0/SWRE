@@ -1,17 +1,17 @@
 # SWRE (Switching, Routing, and Wireless Essentials)
 
-## Cerințe proiect AR (an 3, AC, UPT):
+## Cerințe proiect AR (An 3, AC, UPT):
 
 1. (0.45p) Faceți configurația de VLAN în Customer Office (definiți VLAN-urile pe SW-uri, porturi de tip acces, porturi de tip trunk)
 2. (0.45p) Faceți configurația de VLAN în Data Center (definiți VLAN-urile pe SW-uri, porturi de tip acces, porturi de tip trunk)
 3. (0.45p) Configurați IPv4 echipamentele din VLAN-urile din Customer Office conform topologiei și după următoarele cerințe:
     * a. Pe end-devices la alegere din VLAN-ul din care fac parte
     * b. Pe SW-uri la alegere din VLAN-ul de Management
-    * c. Pe fiecare router pe subinterfețe câte o adresa IPv4 din VLAN-ul din care fac parte).
+    * c. Pe fiecare router pe subinterfețe câte o adresa IPv4 din VLAN-ul din care fac parte.
 4. (0.45p) Configurați IPv4 echipamentele din VLAN-urile din Data Center conform topologiei și după următoarele cerințe:
      * a. Pe end-devices la alegere din VLAN-ul din care fac parte
      * b. Pe SW-uri la alegere din VLAN-ul de Management
-     * c. Pe fiecare MSW pe interfețele de VLAN câte o adresă IPv4 din VLAN-ul din care fac parte).
+     * c. Pe fiecare MSW pe interfețele de VLAN câte o adresă IPv4 din VLAN-ul din care fac parte.
 6. (0.45p) Verificați ping de la oricine la oricine în Customer Office.
 7. (0.45p) Verificați ping de la oricine la oricine în Data Center.
 8. (0.45p) Configurați IPv4 WAN-urile (WAN1, WAN2, cluster Internet) respectând subnet-urile menționate în topologie (atenție la Cluster Internet).
@@ -20,9 +20,8 @@
 11. (0.45p) În site "DataCenter" configurați port-channel folosind LACP.
 12. (0.45p) Setați RSTP și HSRP-ul, astfel încat să folosiți optim rețeaua. Atenție la alegerea Root Bridge-ului Primary și Secondary per VLAN să fie corelat cu HSRP pentru a avea load-balancing. (ex: Dacă CoreSW1 este Root Bridge pentru VLANb, atunci CoreSW1 va fi HSRP Active pentru VLANb)
 13. (0.45p) Verificați ping de la oricine la oricine în Customer Office. Atenție: DGW pe echipamente va fi adresa IPv4 a routerului virtual.
-14. (0.45p) Verificați ping de la oricine la oricine în Data Center. Atenție: DGW pe echipamente va fi adresa IPv4 a routerului virtual.
-15. (0.45p) Configurați RIPv2 pentru routerele din "Internet" (ISP1 + Cluster + ISP2). Asigurați-vă că update-urile de RIPv2 nu se trimit în “Customer Office” și “Data Center”.
-16. (0.45p) Configurați rute statice default către ISP în IPv4 astfel:
+14. (0.45p) Configurați RIPv2 pentru routerele din "Internet" (ISP1 + Cluster + ISP2). Asigurați-vă că update-urile de RIPv2 nu se trimit în “Customer Office” și “Data Center”.
+15. (0.45p) Configurați rute statice default către ISP în IPv4 astfel:
      * a. R4 și R5, ruta default către ISP1
      * b. Core_SW1 și Core_SW2, ruta default către ISP2
 16. (0.45p) Configurați HSRP în IPv4 în partea de WAN1 și WAN2 astfel:
